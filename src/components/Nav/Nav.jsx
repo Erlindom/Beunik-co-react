@@ -30,9 +30,9 @@ class Nav extends Component {
                         </div>
                     </a>
 
-               <div class="contenedor_hamburger">
-                    <button class={`hamburger ${this.state.nav}`} onClick={this.navClick}>
-                        <div class="bar"></div>
+               <div className="contenedor_hamburger">
+                    <button className={`hamburger ${this.state.nav}`} onClick={this.navClick}>
+                        <div className="bar"></div>
                     </button>
                </div>
 
@@ -44,7 +44,7 @@ class Nav extends Component {
                     </a>
 
                     <nav className='nav_content'>
-                        <a className={`nav_links ${this.state.closeNav}`} onClick={this.navClick} href="/" >
+                        <a className={`nav_links ${this.state.closeNav}`} onClick={this.navClick} href="https://play.google.com/store/apps/details?id=com.beunik_employees&hl=es_CO&gl=US" target={"blank"} >
                             <i className='bx bxs-down-arrow-square icon_nav'></i> Descargar App
                         </a>
                         <a className={`nav_links ${this.state.closeNav}`} onClick={this.navClick} href="#feature">

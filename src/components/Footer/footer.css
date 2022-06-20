@@ -16,16 +16,16 @@
     width: 530px;
 }
 
-.icon_contact {
-    color: var(--azul_opaco);
-    font-size: 20px;
-    margin-right: 5px;
-}
-
 .contact_text {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon_contact {
+    color: var(--azul_opaco);
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 .background_blue {

@@ -43,6 +43,11 @@
     width: 83%;
 }
 
+.image_feature_mobile {
+    display: none;
+    margin: 9px auto;
+}
+
 .info_feature {
     font-size: 1.8rem;
     color: var(--color-parrafo);
@@ -92,11 +97,6 @@
 .info_width_feature-button {
     width: 100%;
     text-align: left;
-}
-
-.image_feature_mobile {
-    display: none;
-    margin: 9px auto;
 }
 
 .btn_feature {
