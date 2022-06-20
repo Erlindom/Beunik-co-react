@@ -1,0 +1,57 @@
+.acordeon_section {
+    width: 90%;
+    margin: auto;
+}
+
+.acordeon {
+    width: 100%;
+}
+
+.acordeon_pregunta {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 15px;
+    transition: .3s;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid gray;
+}
+
+
+.acordeon_pregunta:hover {
+    color: rgb(0, 0, 0);
+}
+
+.acordeon_content {
+    background-color: rgb(185, 185, 185);
+    overflow: hidden;
+    transition: .2s;
+}
+
+.acordeon_respuesta {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+    transition: 1s;
+}
+
+.acordeon_icon {
+    transition: transform 0.3s ease;
+}
+
+.title_accordion {
+    color: var(--azul_claro);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 375px) {
+    .title_accordion {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+}
